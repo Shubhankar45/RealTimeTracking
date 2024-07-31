@@ -1,0 +1,23 @@
+{
+  "homepage": "https://Shubhankar45.github.io/RealTimeTracking",
+  "name": "realtime_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
